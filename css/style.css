@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
+
+body {
+    font-family: "Droid Serif", sans-serif;
+    /*height: 100vh;*/
+}
+
+a {
+    color: #616382;
+    text-decoration: none;
+}
+
+.main {
+    background-size: cover;
+    background-image: url("../img/bg.jpeg");
+    height: 100vh;
+}
+
+header {    
+    background-color: #151931;
+    float: left;
+    width: 100%;
+}
+
+nav {
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+
+nav li {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 30px 0 30px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+nav li a:hover {
+    color: #ffffff;
+    text-decoration: underline #c2002e;
+}
+
+.logo {
+    margin-top: 15%;
+    width: 100%;
+    text-align: center;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 86px;
+}
+
+.logo h3 {
+    margin-top: 10px;
+    color: #c2002e;
+    letter-spacing: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo p {
+    margin-top: 40px;
+    color: #e0e0e2;
+    font-style: italic;
+}
+
+.content {
+    text-align: center;
+}
